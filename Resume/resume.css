@@ -1,0 +1,438 @@
+body {
+    background-color: #F2F5F9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile {
+    width: 100%;
+    max-width: 400px;
+    min-height: 700px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px auto;
+    padding: 20px;
+  }
+  
+  .profile-img {
+    margin-top: -150px;
+  }
+  
+  img {
+    width: 226px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .name {
+    color: #0B0909;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28.42px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: -5px;
+  }
+  
+  .job {
+    color: rgba(11, 9, 9, 0.50);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .socials-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .socials {
+    margin: 0 8px;
+    border-radius: 8.269px;
+    background: #F2F7FC;
+    padding: 20px;
+  }
+  
+  .contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 20px;
+    background: #F2F5F9;
+    margin-bottom: 100px;
+    width: 90%;
+    max-width: 350px;
+    height: 261px;
+    flex-shrink: 0;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .phone-card,
+  .email-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+  }
+  
+  .phone-card {
+    margin-right: 40px;
+  }
+  
+  .email-card {
+    margin-top: -20px;
+  }
+  
+  .email-card svg {
+    margin-right: 10px;
+  }
+  
+  .phone-card svg {
+    margin-right: 15px;
+  }
+  
+  .phone-title,
+  .email-title {
+    color: rgba(26, 16, 3, 0.50);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+  }
+  
+  .border {
+    width: 90%;
+    height: 1px;
+    background-color: #E3E3E3;
+  }
+  
+  .phone-number,
+  .email-name {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+  }
+  
+  .download {
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    margin-bottom: 22px;
+    margin-top: -20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: linear-gradient(127deg, #FF9C1A 0%, #E80505 100%);
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download:hover {
+    background-color: #F25D0E;
+  }
+  
+  .section {
+    display: flex;
+    position: relative;
+    margin: 200px auto;
+  }
+  
+  .link-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 503px;
+    height: 100px;
+    border-radius: 20px;
+    background: #fff;
+    position: absolute;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    top: -130px;
+    right: 0;
+  }  
+  
+  .links {
+    border-radius: 20px;
+    background: #E1E8EF;
+    width: 80px;
+    height: 80px;
+    margin: 10px 20px 10px 20px;
+  }
+  
+  a {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 166.667% */
+    text-decoration: none;
+  }
+
+  a.active-link {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .links-active {
+    background: linear-gradient(127deg, #FF9C1A 0%, #E80505 100%);
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    margin: 10px 20px 10px 20px;
+  }
+  
+  .links-logos {
+    margin-top: 15px;
+  }
+  
+  .link-logo,
+  .link-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .resume-card {
+    width: 820px;
+    height: 700px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    margin: 0px 200px 200px 200px auto;
+  }
+  
+  .resume {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+  }
+  
+  .resume-title {
+    color: #0B0909;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 1px;
+  }
+  
+  .border-wrapper {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+  }
+  
+  .border-about {
+    width: 252px;
+    height: 2px;
+    background: linear-gradient(127deg, #FE9119, #ED250A);
+  }
+
+  .edu-ex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 30px 10px 50px;
+  }
+
+  .education {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .experience {
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+  }
+
+  .education-logo,
+  .experience-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+
+  .education-title,
+  .experience-title {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 27.737px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46.229px;
+    letter-spacing: 0.693px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 0px;
+  }
+
+  .edu-cards {
+    width: 288.929px;
+    height: 115.572px;
+    flex-shrink: 0;
+    border-radius: 9.246px;
+    background: #FFE3BF;
+    margin: 0px 50px 20px 50px;
+  }
+
+  .edu-content {
+    padding-top: 30px;
+  }
+
+  .years {
+    color: rgba(26, 16, 3, 0.50);
+    font-family: 'Raleway', sans-serif;
+    font-size: 13.869px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 0px 5px 15px;
+  }
+
+  .main-title {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13.869px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px 0px 5px 15px;
+  }
+
+  .sub-title {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13.869px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0px 0px 5px 15px;
+  }
+
+  .work-soft-skills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .work-soft {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px 10px 50px;
+  }
+
+  .work {
+    margin-bottom: 20px;
+  }
+
+  .work-title,
+  .soft-title {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 27.737px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46.229px;
+    letter-spacing: 0.693px;
+  }
+
+  .work-skill {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .work-skill-title {
+    width: 40px auto;
+    height: 31.999px auto;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E1E8EF;
+  }
+
+  .work-skill-title3 {
+    width: 40px auto;
+    height: 31.999px auto;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E1E8EF;
+    margin-left: 20px;
+  }
+
+  .work-skill2 {
+    margin: 0px 0px 20px 0px;
+  }
+
+  .work-skill-title2 {
+    width: auto;
+    height: 31.999px auto;
+    padding: 10px 0px 10px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #E1E8EF;
+  }
